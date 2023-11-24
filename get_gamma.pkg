@@ -1,0 +1,11 @@
+v 1
+d get_gamma. Gamma distribution parameters calculator.
+d get_gamma by Rafael Leite Pacheco and Rachel Riera
+d Hospital Sírio-Libanês; Universidade Federal de São Paulo.
+d Contact: rleitepacheco@hotmail.com
+d The command get_gamma was created for the estimation of gamma distribution parameters from sample mean and standard deviation.
+d Distribution-Date: 20232511
+d Full guidance and support: https://github.com/rlpacheco/abseff
+
+f get_gamma.ado
+f get_gamma.sthlp
