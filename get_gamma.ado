@@ -35,8 +35,8 @@ program define b
 local mean_g = `alfa'*`beta'
 local sd = sqrt(`alfa'*(`beta'^2))
 
-display as txt "mean is `mean_g'"
-display as txt "sd is `sd'"
+display as txt "mean = `mean_g'"
+display as txt "sd = `sd'"
 	
 	
 
