@@ -26,11 +26,11 @@ e-mail: rleitepacheco@hotmail.com
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 **Downloading package**
 
-(Step 1) Type at STATA: net from https://rlpacheco.github.io/abseff/
+(Step 1) Type at STATA: net from [https://rlpacheco.github.io/abseff/](https://rlpacheco.github.io/get_gamma/)
 
-(Step 2) Then type: net install abseff
+(Step 2) Then type: net install get_gamma
 
-Your package will be ready for use. For details, type: net describe abseff
+Your package will be ready for use. For details, type: net describe get_gamma
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 **Title**
