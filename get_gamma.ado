@@ -18,9 +18,11 @@ program define f
 	
 local alfa = (`mean'/`sd')^2
 local beta = (`sd'^2)/`mean'
+local lambda = 1 / `beta'
 
-display as txt "alfa is `alfa'"
-display as txt "beta is `beta'"
+display as txt "alfa (shape parameter) is `alfa'"
+display as txt "beta (scale parameter) is `beta'"
+display as txt "lambda (rate parameter) is `lambda'"
 
 end
 
@@ -31,7 +33,7 @@ program define b
 	
 	
 local mean_g = `alfa'*`beta'
-local sd = sqrt(`beta'*`mean_g')
+local sd = sqrt(`alfa'*(`beta'^2))
 
 display as txt "mean is `mean_g'"
 display as txt "sd is `sd'"
