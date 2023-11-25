@@ -20,9 +20,9 @@ local alfa = (`mean'/`sd')^2
 local beta = (`sd'^2)/`mean'
 local lambda = 1 / `beta'
 
-display as txt "alfa 	= `alfa'	  (shape parameter)"
-display as txt "beta 	= `beta'	  (scale parameter)"
-display as txt "lambda  = `lambda' 	  (rate parameter)"
+display as txt "alfa = `alfa' (shape parameter)"
+display as txt "beta = `beta' (scale parameter)"
+display as txt "lambda = `lambda' (rate parameter)"
 
 end
 
