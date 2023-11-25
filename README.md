@@ -45,15 +45,20 @@ Your package will be ready for use. For details, type: net describe abseff
 where,
 
 N1 = identification of type of calculation (b, f)
+
   - f (forward): you will present sample mean and standard deviation. The output will be the shape (alfa), scale (beta) and 1/beta (rate) parameters.
+    
   - b (backward): you will present the shape (alfa) and scale (beta) parameters. The output will be the mean and standard deviation.
 
 N2-N3 = inputs:
+
   f : N2 = mean ; N3 = standard deviation.
+  
   b : N2 = alfa ; N3 = beta.
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 **Description**
+
 The command get_gamma was created for the estimation of gamma distribution parameters from sample mean and standard deviation. It can also be used to estimate the mean and standard deviation from gamma parameters.
 
 *Examples*
@@ -67,7 +72,9 @@ You want to draw a distribution based on the following sample : mean = 2; sd = 1
 *Display*
 
 alfa = 4 (shape parameter)
+
 beta = .5 (scale parameter)
+
 lambda = 2 (rate parameter)
 
 **2. Backward**
@@ -76,16 +83,11 @@ You want to calculate the mean and standard deviation from a gamma distribution 
 
 . get_gamma b 4 0.5
 
+*Display*
 
+mean = 2
 
-
--------------------------------------------------------------------------------------------------------------------------------------------------------------------
-**References**
-
-Calculations were based on the following publications:
-
-[1] Schünemann HJ, Higgins JPT, Vist GE, Glasziou P, Akl EA, Skoetz N, Guyatt GH. Chapter 14: Completing `Summary of findings' tables and grading the certainty of the evidence. In: Higgins JPT, Thomas J, Chandler J, Cumpston M, Li T, Page MJ, Welch VA (editors). Cochrane Handbook for Systematic Reviews of Interventions version 6.2 (updated February 2021). Cochrane, 2021. Available from www.training.cochrane.org/handbook.
-
-[2] Skoetz N, Goldkuhle M, van Dalen EC, Akl EA, Trivella M, Mustafa RA, Nowak A, Dahm P, Schünemann H, Bender R; GRADE Working Group. GRADE guidelines 27: how to calculate absolute effects for time-to-event outcomes in summary of findings tables and Evidence Profiles. J Clin Epidemiol. 2020 Feb;118:124-131. doi: 10.1016/j.jclinepi.2019.10.015.
+sd = 1
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
