@@ -52,9 +52,9 @@ N1 = identification of type of calculation (b, f)
 
 N2-N3 = inputs:
 
-  f : N2 = mean ; N3 = standard deviation.
+  - f : N2 = mean ; N3 = standard deviation.
   
-  b : N2 = alfa ; N3 = beta.
+  - b : N2 = alfa ; N3 = beta.
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 **Description**
