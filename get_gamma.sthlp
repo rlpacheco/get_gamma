@@ -2,7 +2,7 @@
 
 **# Description: The command get_gamma was created for the estimation of gamma distribution parameters from sample mean and standard deviation. It can also be used to estimate the mean and standard deviation from gamma parameters.
 
-**# Guidance: full guidance and application examples can be found at xx
+**# Guidance: full guidance and application examples can be found at https://rlpacheco.github.io/get_gamma/
 
 **# Authors
 Rafael Leite Pacheco
