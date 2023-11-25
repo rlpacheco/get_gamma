@@ -45,9 +45,12 @@ Your package will be ready for use. For details, type: net describe abseff
 where,
 
 N1 = identification of type of calculation (b, f)
-  - f (forward): you will present sample mean an
+  - f (forward): you will present sample mean and standard deviation. The output will be the shape an rate parameters.
+  - b (backward): you will present the shape (alfa) and rate (beta) parameters. The output will be the mean and standard deviation.
 
-N2-N6 = numerical values based on each treatment effect
+N2-N3 = inputs:
+  f : N2 = mean ; N3 = standard deviation.
+  b : N2 = alfa ; N3 = beta.
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 **Description**
